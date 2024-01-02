@@ -12,6 +12,6 @@
 
 ```bash
 # Example installation commands
-git clone [repository_url]
+git clone https://github.com/labkumardas/NodeJs-Di-MVC/tree/main
 cd [project_directory]
 npm install
