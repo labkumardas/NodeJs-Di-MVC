@@ -1,2 +1,20 @@
 https://www.figma.com/file/dLbCp9nqOwtaZAGtPEqsnq/Cosy-connect----Dev-Ready-(1)?type=design&node-id=0-1&mode=design&t=VE9C0hZUgvT8xm2o-0
 https://universal-star-213835.postman.co/workspace/Kindra-WorkSpace~d45176dc-c28c-4a36-b717-c4e90d283859/collection/25939478-3f0f632a-2720-4254-8cac-e2f6f5e22347?action=share&creator=25939478
+Project Name : KindraCourier
+Base URL for testing : http://3.111.233.200:8083/api/v1 (for driver use /driver and for user use /user)
+Technology : Nodejs , ExpressJs, MongoDb, Aws.
+Project Architecture : MVC
+we created this document based on our backend service. we mention all type of response code and end point in this document.
+List of all types of status code that used in this project :
+FOR_FETCH_DATA: { code: 200, message: 'OK' },
+FOR_CREATE_DATA: { code: 201, message: 'Created' },
+FOR_BAD_REQUEST: { code: 400, message: 'Bad Request' },
+FOR_UNAUTHORIZED: { code: 401, message: 'Unauthorized' },
+FOR_FORBIDDEN: { code: 403, message: 'Forbidden' },
+FOR_NOT_FOUND: { code: 404, message: 'Not Found' },
+FOR_INTERNAL_SERVER_ERROR: { code: 500, message: 'Internal Server Error' },
+EXISTING_PHONE_NUMBER: { code: 409, message: 'Phone number already exists' },
+EXISTING_EMAIL: { code: 409, message: 'Emails already exists' },
+EXISTING_USERNAME: { code: 409, message: 'Username already exists' }
+
+
